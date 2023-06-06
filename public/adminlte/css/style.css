@@ -1,0 +1,21 @@
+.shining-link {
+    position: relative;
+}
+
+.shining-link::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background-color: rgb(111, 111, 111);
+    z-index: -1;
+   
+}
+
+
+.table-centered td,
+.table-centered th {
+  vertical-align: middle;
+}
